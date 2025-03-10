@@ -160,8 +160,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6b6ed441da467841b00a0d022a2b7ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  speed: 2.5
+  health: 3
+  speedAttack: 5
   delay: 0.85
+  maxAmount: 6
   minDegree: 225
   maxDegree: 315
+  elapse: 5
+  speed: 0.15
+  horizontalSpeed: 2
+  movementRange: 3

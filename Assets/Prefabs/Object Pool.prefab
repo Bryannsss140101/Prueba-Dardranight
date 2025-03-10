@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5947392600532434622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 250262383583092141}
+  - component: {fileID: 4871845844753539960}
+  m_Layer: 0
+  m_Name: Object Pool
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &250262383583092141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5947392600532434622}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4871845844753539960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5947392600532434622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd83bc12b2ddee8448be98a746552e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - type: 0
+    prefab: {fileID: 5364913571707615626, guid: 9839d31ef3415e14aa9aca4b6d4dff9c, type: 3}
+    list: []
+    size: 5
+  - type: 5
+    prefab: {fileID: 3329493249581481940, guid: 180b30ed2061c624caef6a9c97b645f8, type: 3}
+    list: []
+    size: 5
+  - type: 1
+    prefab: {fileID: 850332117031276921, guid: 0f6b06f03d6ac2c428831670a84b744b, type: 3}
+    list: []
+    size: 5
+  - type: 2
+    prefab: {fileID: 7623355297682836889, guid: 0bfb61a4c032d80449251827c3776081, type: 3}
+    list: []
+    size: 5
+  - type: 3
+    prefab: {fileID: 9075275902147657379, guid: e8fab5df8ddddad45a97d241ee6dd8da, type: 3}
+    list: []
+    size: 5
+  - type: 4
+    prefab: {fileID: 4199875163429934817, guid: 6ec94555483a54c43a5ff8301b58531d, type: 3}
+    list: []
+    size: 5

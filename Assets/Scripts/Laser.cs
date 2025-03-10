@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class Laser : MonoBehaviour
 {
     private float speed;
     private Vector3 velocity;
@@ -39,7 +39,7 @@ public class Bullet : MonoBehaviour
         if (owner == collision.gameObject)
             return;
 
-        if (collision.CompareTag("Entity"))
+        if (collision.CompareTag("Player"))
         {
             var entity = collision.GetComponent<IDamageable>();
             entity.TakeDamage(1);

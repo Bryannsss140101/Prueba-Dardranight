@@ -160,8 +160,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf7eda533c0e22a44b15b5931efbe291, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  speed: 0
-  amount: 0
+  health: 5
+  speedAttack: 10
+  delay: 1
+  maxAmount: 3
   minDegree: 0
-  maxDegree: 0
+  maxDegree: 360
+  elapse: 6
+  speed: 0.25
+  waveFrequency: 10
+  waveMagnitude: 0.5
